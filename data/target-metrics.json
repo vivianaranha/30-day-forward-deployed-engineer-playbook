@@ -1,0 +1,6 @@
+{
+  "target_median_triage_minutes": 3.0,
+  "target_manual_routing_reduction": 0.5,
+  "target_reassignment_rate": 0.12,
+  "target_recommendation_acceptance": 0.7
+}

@@ -1,0 +1,27 @@
+openapi: 3.0.3
+info:
+  title: Ticket System API
+  version: 1.0.0
+paths:
+  /tickets/{ticket_id}:
+    get:
+      summary: Get ticket
+      parameters:
+        - in: path
+          name: ticket_id
+          required: true
+          schema: {type: string}
+      responses: {'200': {description: Ticket}}
+    put:
+      summary: Update ticket
+      parameters:
+        - in: path
+          name: ticket_id
+          required: true
+          schema: {type: string}
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {type: object, additionalProperties: true}
+      responses: {'200': {description: Updated}}

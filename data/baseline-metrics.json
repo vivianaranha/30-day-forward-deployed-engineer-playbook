@@ -1,0 +1,7 @@
+{
+  "manual_median_triage_minutes": 6.5,
+  "tickets_per_week": 2500,
+  "average_reassignment_rate": 0.18,
+  "estimated_loaded_hourly_cost_usd": 42,
+  "pilot_users": 25
+}

@@ -1,0 +1,7 @@
+ticket_id,subject,description,customer_tier,expected_category,expected_priority,expected_team
+"T-1001","Production login outage","All users cannot access the production application after the authentication change.","platinum","authentication","critical","Identity Support"
+"T-1002","Invoice total incorrect","Customer says the latest invoice contains duplicate charges.","gold","billing","normal","Billing Support"
+"T-1003","High network latency","Multiple users report repeated latency from the Chicago office.","standard","network","high","Network Operations"
+"T-1004","Feature configuration help","Customer needs assistance configuring the new reporting feature.","standard","product","normal","Product Support"
+"T-1005","Password reset question","One user cannot sign in after changing their password.","standard","authentication","normal","Identity Support"
+"T-1006","Production connectivity down","Production down for all users due to connectivity failure.","platinum","network","critical","Network Operations"
